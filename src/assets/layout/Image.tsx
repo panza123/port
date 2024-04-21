@@ -8,7 +8,7 @@ export default function Image() {
   return (
 <main className=" max-w-[1440px]  px-7 mt-3 py-5 border-b-2 border-[#DADADA] ">
     <h1 className="text-3xl font-bold text-center">Simplify Your Logistical Needs</h1>
-    <div className="w-full h-full sm:grid  lg:grid-cols-4 gap-4 mt-5">
+    <div className="w-full h-full sm:grid md:grid-cols-2  lg:grid-cols-4 gap-4 mt-5">
     <img src={logo} alt="" />
 <img src={logo1} alt="" />
 <img src={logo2} alt="" />
